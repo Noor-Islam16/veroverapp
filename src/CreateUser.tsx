@@ -18,7 +18,7 @@ const CreateUser = () => {
   useEffect(() => {
     GoogleSignin.configure({
       webClientId:
-        '27382433897-sol4o7a6ebn67t1vbad6udcgpra0jkj6.apps.googleusercontent.com',
+        '',
       offlineAccess: true,
       forceCodeForRefreshToken: true,
     });
